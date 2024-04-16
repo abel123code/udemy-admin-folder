@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.adm-login-form-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.adm-form {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.adm-form h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 3% 0;
+}
+
+.adm-input-group {
+    width: 100%;
+    margin: 1% 0;
+}
+
+.adm-input-group input {
+    width: 100%;
+    padding: 6% 2%;
+    font-size: 15px;
+}
+
+.adm-login-button {
+    margin: 3% 0;
+    padding: 3% 0;
+    color: white;
+    background-color: blueviolet;
+    font-weight:600;
+    font-size: 16px;
+}
+  
+.adm-forgot-password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:600;
+    padding: 3% 0;
+    border-bottom: 1px solid lightgray;
+}
+  
+.log-in-org {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+  
+.log-in-org a {
+    font-weight: 600;
+    font-size: 14px;
+}
+  
+  
+
+@media (min-width: 1450px) {
+    .adm-form {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .adm-form {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    .adm-form {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+}

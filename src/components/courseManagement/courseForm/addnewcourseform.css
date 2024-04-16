@@ -1,0 +1,14 @@
+.AddCourseForm {
+    width: 90%;
+    margin: 3% auto;
+    
+}
+
+.AddCourseForm h2 {
+    padding: 2%;
+}
+
+.form {
+    border: 1px solid lightgray;
+    padding: 2%;
+}

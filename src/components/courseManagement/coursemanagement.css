@@ -1,0 +1,28 @@
+.courseManagement-cntr {
+    width: 100%;
+}
+
+.allCourse-ctnr {
+    width: 90%;
+    margin: 2% auto;
+}
+
+.allCourse-ctnr h2,
+.search-by-genre h2  {
+    margin: 1% 0;
+}
+
+.action-ctnr, .search-by-genre {
+    width: 90%;
+    margin: 2% auto;
+}
+
+.input-course-btn {
+    width: 100%;
+    padding: 1% 0;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid gray;
+}

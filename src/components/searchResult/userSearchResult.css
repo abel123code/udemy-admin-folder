@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-result-ctnr {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-data, 
+.liked-course-data, 
+.add2cart-course-data , 
+.enrolled-course-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 3% 0;
+}
+
+.back-button-ctnr {
+    width: 80%;
+    margin: 1% 0;
+}
+
+
+.userDataTable , .userLikedCourse{
+    margin: 1% 0;
+}
+
+.no_results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 3% 0;
+}
+
+.back-btn {
+    margin: 1% 0;
+    padding: 1% 2%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.no_liked_course {
+    display: flex;
+    width: 80%;
+}
